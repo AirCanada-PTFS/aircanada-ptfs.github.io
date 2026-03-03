@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta http-equiv="refresh" content="0; url=http://217.160.3.69:12368/">
+  <meta charset="UTF-8">
   <title>Redirecting...</title>
+  <script>
+    // Redirect after page loads
+    window.onload = function() {
+      window.location.href = "http://217.160.3.69:12368/";
+    };
+  </script>
 </head>
 <body>
-  <p>If you are not redirected, <a href="http://217.160.3.69:12368/">click here</a>.</p>
+  <p>If you are not redirected automatically, <a href="http://217.160.3.69:12368/">click here</a>.</p>
 </body>
 </html>
